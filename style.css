@@ -1,0 +1,85 @@
+/* Import a Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* --- Overall App Styling --- */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.stApp {
+    background-color: #111827; /* Dark blue-grey background */
+    color: #F9FAFB;
+}
+
+/* Hide Streamlit's default header and footer */
+.st-emotion-cache-16txt4x, .st-emotion-cache-h4xjv7 {
+    display: none;
+}
+
+/* --- Custom Card Containers --- */
+[data-testid="stVerticalBlock"] > [data-testid="stHorizontalBlock"] > [data-testid="stVerticalBlock"] {
+    border: 1px solid #374151; /* Gray border */
+    border-radius: 0.75rem; /* Rounded corners */
+    padding: 1.5rem;
+    background-color: #1F2937; /* Darker card background */
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+/* --- Button Styling --- */
+.stButton > button {
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    font-weight: 600;
+    color: white;
+    background-image: linear-gradient(to right, #6D28D9, #4F46E5); /* Purple-blue gradient */
+    border: none;
+}
+.stButton > button:hover {
+    opacity: 0.9;
+    color: white;
+}
+
+/* --- Skill Pills Styling --- */
+.skill-pill {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 9999px; /* Fully rounded */
+    font-size: 0.8rem;
+    font-weight: 500;
+    background-color: #4B5563; /* Gray background */
+    color: #F9FAFB;
+    border: 1px solid #6B7280;
+}
+
+/* --- Skill Gap List Item Styling --- */
+.skill-item {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+}
+
+.skill-item-match {
+    background-color: rgba(16, 185, 129, 0.1); /* Light green background */
+    border: 1px solid #10B981; /* Green border */
+    color: #10B981;
+}
+
+.skill-item-missing {
+    background-color: rgba(245, 158, 11, 0.1); /* Light amber background */
+    border: 1px solid #F59E0B; /* Amber border */
+    color: #F59E0B;
+}
+
+.skill-item svg {
+    margin-right: 0.75rem;
+}
+
+/* --- Progress Bar for Overall Completeness --- */
+.stProgress > div > div > div > div {
+    background-image: linear-gradient(to right, #6D28D9, #4F46E5);
+}
