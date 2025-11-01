@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+.venv/
+__pycache__/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+
+# Python cache files
+*.pyc
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Local data files you might not want to share (optional)
+# For example, if you had a very large data file
+# *.csv
+
+# Debug files
+debug_screenshot.png

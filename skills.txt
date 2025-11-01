@@ -1,0 +1,86 @@
+python
+r
+sql
+java
+c++
+c#
+javascript
+html
+css
+php
+ruby
+swift
+kotlin
+scala
+go
+rust
+typescript
+powershell
+bash
+aws
+azure
+google cloud
+gcp
+docker
+kubernetes
+jenkins
+git
+jira
+tableau
+power bi
+qlik
+looker
+excel
+sas
+spss
+matlab
+tensorflow
+pytorch
+keras
+scikit-learn
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+hadoop
+spark
+pyspark
+hive
+kafka
+airflow
+snowflake
+redshift
+bigquery
+mongodb
+cassandra
+mysql
+postgresql
+nosql
+machine learning
+deep learning
+natural language processing
+nlp
+computer vision
+data mining
+data analysis
+statistical analysis
+a/b testing
+causal inference
+reinforcement learning
+llm
+large language models
+generative ai
+prompt engineering
+rag
+retrieval-augmented generation
+agile
+scrum
+.net
+api
+react
+vue
+angular
+node.js
+django
+flask
